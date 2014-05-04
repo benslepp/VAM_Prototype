@@ -69,6 +69,123 @@ h1 {
   margin: 0.67em 0;
 }
 
+.globalnavigation {
+    background-color:#302c28;
+    margin-left:auto;
+    margin-right:auto;
+    height:35px;
+}
+
+.propertynavigation {
+    background-color:#544e46;
+     margin-left:auto;
+    margin-right:auto;
+    height:40px;
+}
+
+.pageheader {
+    background-color:#FFFFFF;
+    height:112px;
+}
+
+.addvideo-form {
+  background-color:#FFF;
+  margin: 50px 80px 0px 80px;
+  height:500px;
+}
+
+.small-grey-font {
+  font-size:11px;
+  color:#9f9482;
+  text-transform:uppercase;
+}
+
+.url-form {
+  margin: 40px 40px 40px 40px;
+  padding-top:40px;
+}
+
+.url-form-field {
+  margin-top:10px;
+  border: 1px solid #e5e3d8;
+  height:46px;
+}
+
+.placeholder-font {
+  font-size:15px;
+  color:#EEEEEE;
+  margin:13px 0px 15px 5px;
+  font-weight:300;
+}
+
+.video-upload {
+  margin: 40px 40px 40px 40px;
+}
+
+.video-module {
+  margin-top:10px;
+  border: 1px solid #e5e3d8;
+  height:275px;
+  background-color:#f4f3ed;
+  text-align:center;
+  padding-right:40px;
+}
+
+.dragdrop-font {
+  padding-top:50px;
+  color: #333333;
+  font-weight:100;
+  font-size:28px;
+}
+
+.filepicker-font {
+  color: #AAAAAA;
+  padding-top:10px;
+  font-weight:200;
+  font-size:16px;
+}
+
+.video-metadata {
+  margin:40px 0px 0px 0px;
+}
+
+.video-thumb {
+  margin: 30px 30px 30px 30px;
+  background-color: #999999;
+  background-image:"lib/images/flip.jpg";
+  background-position:hidden;
+  height:200px;
+  width:350px;
+}
+
+.file-name-font {
+  padding-top:50px;
+  color: #333333;
+  font-weight:100;
+  font-size:28px;
+  text-align:left;
+}
+
+.file-info-font {
+  color: #AAAAAA;
+  padding:10px 0px 10px 0px;
+  font-weight:200;
+  font-size:16px;
+  text-align:left;
+}
+
+.warning-font {
+  color: #AAAAAA;
+  padding:10px 0px 15px 0px;
+  font-weight:200;
+  font-size:12px;
+  text-align:left;
+}
+
+.image-editvideo {
+  margin:50px 15% 50px 15%;
+}
+
 mark {
   background: #ff0;
   color: #000;
@@ -1265,8 +1382,10 @@ h6 .small,
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+/*  margin-top: 20px;
+  margin-bottom: 10px;*/
 }
 h1 small,
 h1 .small, .h1 small,
@@ -1655,8 +1774,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;*/
+  /*padding-right: 15px;*/
 }
 .container:before, .container:after {
   content: " ";
@@ -1667,25 +1786,25 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .container-fluid:before, .container-fluid:after {
   content: " ";
@@ -6569,8 +6688,9 @@ button.close {
   }
 }
 body {
-  padding-top: 51px;
-  background: black;
+  /*padding-top: 51px;*/
+  /*background: black;*/
+  background: #f4f3ed;
   color: white;
 }
 

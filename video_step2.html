@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Add Video</title>
+		<title>Video Upload - Step 2</title>
 		<link rel="stylesheet" href="lib/stylesheets/styles.css">
 		<script src="lib/scripts/angular.min.js"></script>
 		<script src="lib/scripts/ui-bootstrap-tpls-0.10.0.min.js"></script>
@@ -12,12 +12,8 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="globalnavigation">
-				<img src="lib/images/globalnav.png">
-			</div>
-			<div class="propertynavigation">
-				<img src="lib/images/propertynav.png">
-			</div>
+			<div class="globalnavigation"></div>
+			<div class="propertynavigation"></div>
 			<div class="pageheader"></div>
 		</div>
 		<div class="container">
@@ -31,8 +27,16 @@
 				<div class="video-upload">
 					<h1 class="small-grey-font">Upload Video File</h1>
 					<div class="video-module">
-						<h1 class="dragdrop-font">Drag & Drop</h1>
-						<h2 class="filepicker-font">or click to upload a video</h2>
+						<div class="video-thumb pull-left"></div>
+						<div class="video-metadata">
+							<h3 class="file-name-font">Video-Skate.mp4</h3>
+							<h3 class="file-info-font">64mb / 120mb downloaded</h3>
+							<h3 class="warning-font">This video is being uploaded, you may <a href="editvideo.html">Start Editing -></h3>
+							<!-- <h3 class="warning-font">This video is being uploaded, we will notify you when the upload process is complete.</h3> -->
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
